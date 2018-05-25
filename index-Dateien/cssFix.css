@@ -1,0 +1,106 @@
+﻿
+.rs-verbrauch.website {
+    display: block;
+}
+
+#rs-verbrauch-mobile {
+    color: black;
+    display: block;
+    position: relative;
+    padding: 5px 10px;
+    background: #EEEEEE;
+    width: 100%;
+    line-height: 1.2em;
+}
+
+#rs-verbrauch-mobile p {
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 480px) {
+    #rs-verbrauch-mobile {
+        margin-top: 58px;
+    }
+
+    #rs-verbrauch-mobile.in-wizard,
+    #rs-verbrauch-mobile.without-box {
+        margin-top: 0;
+}
+
+    .rs-caption {
+        position: static;
+}
+}
+
+#rs-verbrauch-mobile {
+    display: block;
+}
+
+.rs-verbrauch.website {
+    display: none;
+}
+
+#sticky {
+    display: none;
+    bottom: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+#sticky .kv-box {
+    width: 100%;
+    padding-top: 20px;
+    background: rgba(128,128,128,0.95);
+}
+#sticky.fixed {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+table.requests tr:hover,
+table.requests tr:hover td {
+    background-color: #DDDDDD;
+    cursor: pointer;
+}
+
+table.requests {
+    width: 100%;
+}
+
+div.disabled input,
+div.disabled label,
+div.disabled select,
+div.disabled textarea,
+input[disabled] {
+    color: #666666;
+    opacity: 0.5;
+    cursor: default;
+}
+
+
+.requestdetails input[type='checkbox'] {
+    display: inline;
+    width: auto;
+}
+.requestdetails input[type='submit'] {
+    display: inline;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+.requestdetails div.metaForm,
+.requestdetails form.meta {
+    border-top: 1px dotted #CCCCCC;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+            
